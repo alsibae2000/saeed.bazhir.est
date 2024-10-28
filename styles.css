@@ -1,0 +1,97 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* شريط التنقل */
+header {
+    background-color: #FFCC00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* الأقسام */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+    color: #FFCC00;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* المنتجات */
+.product {
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* صفحة تواصل معنا */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #FFCC00;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+/* تذييل */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
